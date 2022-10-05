@@ -1,24 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MBTIARY_Ver_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="istockphoto-1270728636-170667a 1" translatesAutoresizingMaskIntoConstraints="NO" id="MlD-8c-JlJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="523"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="SgQ-HA-urI"/>
+                                    <constraint firstAttribute="height" constant="523" id="VQ2-4k-bCq"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFE-kw-xdg">
+                                <rect key="frame" x="49.5" y="623" width="315" height="50"/>
+                                <color key="backgroundColor" red="0.96470588450000005" green="0.89019608500000003" blue="0.2941176593" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gh3-14-QBd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="카카오톡으로 시작하기">
+                                    <color key="titleColor" red="0.22745099660000001" green="0.13725490870000001" blue="0.050980389119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kakaotalk_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Buq-yH-Q9d">
+                                <rect key="frame" x="68" y="637" width="30" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Fbw-eS-PP5"/>
+                                    <constraint firstAttribute="height" constant="23" id="g27-qx-yLH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다른 방법으로 로그인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugb-AC-RWW">
+                                <rect key="frame" x="144.5" y="704" width="125" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="EJb-z9-wOZ"/>
+                                    <constraint firstAttribute="width" constant="125" id="FS9-MO-Izf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="systemGrayColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MBTIARY" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKr-y4-tnf">
+                                <rect key="frame" x="85" y="228" width="84" height="47"/>
+                                <fontDescription key="fontDescription" name="BMYEONSUNG-OTF" family="BM Yeonsung" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="나눔손글씨 강부장님체"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.73333334920000004" green="0.77647060160000003" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="MlD-8c-JlJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="3lw-G9-wjm"/>
+                            <constraint firstItem="Buq-yH-Q9d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="Dld-LK-lXo"/>
+                            <constraint firstItem="gKr-y4-tnf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Gef-3n-g3C"/>
+                            <constraint firstItem="MlD-8c-JlJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RHP-sh-Rp6"/>
+                            <constraint firstItem="Buq-yH-Q9d" firstAttribute="top" secondItem="MlD-8c-JlJ" secondAttribute="bottom" constant="114" id="Syx-V2-LSg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fFE-kw-xdg" secondAttribute="trailing" constant="49.5" id="Tnm-O9-1u6"/>
+                            <constraint firstItem="ugb-AC-RWW" firstAttribute="top" secondItem="fFE-kw-xdg" secondAttribute="bottom" constant="31" id="VTv-uz-Ys8"/>
+                            <constraint firstItem="gKr-y4-tnf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="184" id="WeM-dE-nHT"/>
+                            <constraint firstItem="ugb-AC-RWW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="144.5" id="gqc-yf-0US"/>
+                            <constraint firstItem="MlD-8c-JlJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jPO-gF-XnT"/>
+                            <constraint firstItem="fFE-kw-xdg" firstAttribute="top" secondItem="MlD-8c-JlJ" secondAttribute="bottom" constant="100" id="pCT-jG-8z2"/>
+                            <constraint firstItem="fFE-kw-xdg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49.5" id="wE0-He-rsX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginBtn" destination="fFE-kw-xdg" id="9FE-qB-nYt"/>
+                        <outlet property="mainLabel" destination="gKr-y4-tnf" id="pok-6T-9fJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="istockphoto-1270728636-170667a 1" width="428" height="603"/>
+        <image name="kakaotalk_logo" width="26" height="23"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
