@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         loginBtn.layer.shadowOffset = CGSize(width: 0, height: 4) // 위치조정
         loginBtn.layer.shadowRadius = 5 // 반경
         loginBtn.layer.shadowOpacity = 0.3 // alpha값
+        print("된건가.?")
     }
 
     
