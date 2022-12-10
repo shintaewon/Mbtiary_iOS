@@ -2,8 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>카메라로 사진 찍기</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>앨범에서 사진 선택</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>kakao58be5816e66898f12749fcb606fa98f8</string>
+			</array>
+			<key>NSPhotoLibraryAddUsageDescription</key>
+			<string>Why you want to access photo library</string>
+		</dict>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
+		<string>NotoSansCJKkr-Regular.otf</string>
+		<string>NotoSansCJKkr-Medium.otf</string>
+		<string>NotoSansCJKkr-Bold.otf</string>
 		<string>나눔손글씨 강부장님체.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>

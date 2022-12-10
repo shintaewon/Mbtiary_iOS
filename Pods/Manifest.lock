@@ -1,0 +1,97 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - FSCalendar (2.8.4)
+  - KakaoSDK (2.11.1):
+    - KakaoSDKAuth (= 2.11.1)
+    - KakaoSDKCommon (= 2.11.1)
+    - KakaoSDKFriend (= 2.11.1)
+    - KakaoSDKNavi (= 2.11.1)
+    - KakaoSDKShare (= 2.11.1)
+    - KakaoSDKStory (= 2.11.1)
+    - KakaoSDKTalk (= 2.11.1)
+    - KakaoSDKTemplate (= 2.11.1)
+    - KakaoSDKUser (= 2.11.1)
+  - KakaoSDKAuth (2.11.1):
+    - KakaoSDKCommon (= 2.11.1)
+  - KakaoSDKCommon (2.11.1):
+    - KakaoSDKCommon/Common (= 2.11.1)
+    - KakaoSDKCommon/Network (= 2.11.1)
+  - KakaoSDKCommon/Common (2.11.1)
+  - KakaoSDKCommon/Network (2.11.1):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.11.1)
+  - KakaoSDKFriend (2.11.1):
+    - KakaoSDKUser (= 2.11.1)
+  - KakaoSDKNavi (2.11.1):
+    - KakaoSDKCommon/Common (= 2.11.1)
+  - KakaoSDKShare (2.11.1):
+    - KakaoSDKCommon (= 2.11.1)
+    - KakaoSDKTemplate (= 2.11.1)
+  - KakaoSDKStory (2.11.1):
+    - KakaoSDKUser (= 2.11.1)
+  - KakaoSDKTalk (2.11.1):
+    - KakaoSDKTemplate (= 2.11.1)
+    - KakaoSDKUser (= 2.11.1)
+  - KakaoSDKTemplate (2.11.1):
+    - KakaoSDKCommon/Common (= 2.11.1)
+  - KakaoSDKUser (2.11.1):
+    - KakaoSDKAuth (= 2.11.1)
+  - Kingfisher (7.3.2)
+  - MonthYearPicker (4.0.2)
+  - RxSwift (6.5.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - FSCalendar
+  - KakaoSDK
+  - Kingfisher
+  - MonthYearPicker
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - FSCalendar
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKFriend
+    - KakaoSDKNavi
+    - KakaoSDKShare
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - Kingfisher
+    - MonthYearPicker
+    - RxSwift
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  KakaoSDK: ab3e070e19afb7218d6897b53c4b44d65a574005
+  KakaoSDKAuth: bb2dfa7be30daa8403c9cfc8001aa6fde7a5b779
+  KakaoSDKCommon: 555e1bb46595b842ded01cf7888cc17bbae4e113
+  KakaoSDKFriend: 51b432245bfd77006df4594efd6cb606c8970e86
+  KakaoSDKNavi: 695360dc4a673c1fc4e893c6afe9922e0accc8bd
+  KakaoSDKShare: 9752730ce3339536f9d7812eb70eccb87643e9a6
+  KakaoSDKStory: 0ea94b212c07579c12f2a4c64722667cef6ace84
+  KakaoSDKTalk: 504872e5b49e5ff104c65e37d54d2a8f04c606d3
+  KakaoSDKTemplate: f8ee0b33f649e436c1aaf2a3a6bd6aa3dcae2451
+  KakaoSDKUser: 08c0a4f40bebdebdf948a9e3d0e44ed5c2754f99
+  Kingfisher: 0086ad83719761ba9b2cdaf6ef4d5b4878cbae23
+  MonthYearPicker: 91f77106e6806d8c93c69e943ab0795fd420657f
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: da5746febb228fb2976221eb7f5cb0525c3f53a4
+
+COCOAPODS: 1.11.3
